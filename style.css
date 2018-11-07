@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family:'Indie Flower', cursive;
+  color: rgb(10, 10, 10);
+  font-size: 15px;
+  line-height:1.5;
+}
+h1,h2,h3 {
+color: red;
+font-family:'Montserrat', sans-serif;
+/*font-size:;*/
+}
+a{
+  text-decoration: none;
+}
+
+a:hover {
+    color: rgb(120,120,120);
+
+}
+header {
+position: fixed;
+width: 20%;
+text-align: left;
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.text-center {
+  text-align: center;
+}
+.card {
+background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.film-photo {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 23px 0px rgba(0, 0, 0, 0.2);
+}
+.img-circle {
+border-radius: 50%;
+}
+.list-inline li  {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  padding-left: 0px;
+}
+.bty-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+.films{
+  padding: 10px;
+
+}
